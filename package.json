@@ -1,0 +1,41 @@
+{
+  "name": "with-next-page-transitions",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@tailwindui/react": "^0.1.1",
+    "autoprefixer": "^9",
+    "cookie": "^0.4.1",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.20",
+    "next": "latest",
+    "next-page-transitions": "1.0.0-beta.2",
+    "next-seo": "^4.19.0",
+    "postcss": "^7",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "babel-loader": "^8.2.2",
+    "postcss-flexbugs-fixes": "^5.0.2"
+  }
+}
